@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Number of people?"
+            android:text="@string/num_of_people_string"
             android:textSize="24sp"
             android:labelFor="@id/num_attend_edit_text" />
 
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="How hungry?"
+            android:text="@string/how_hungry_string"
             android:textSize="24sp"
             android:labelFor="@id/hungry_radio_group" />
 
@@ -48,25 +48,25 @@
             android:orientation="horizontal">
             <RadioButton
                 android:id="@+id/light_radio_button"
-                android:text="Light"
+                android:text="@string/light_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
                 android:id="@+id/medium_radio_button"
-                android:text="Medium"
+                android:text="@string/medium_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true" />
             <RadioButton
                 android:id="@+id/ravenous_radio_button"
-                android:text="Ravenous"
+                android:text="@string/ravenous_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </RadioGroup>
 
         <TextView
             android:id="@+id/num_pizzas_text_view"
-            android:text="Total pizzas: ?"
+            android:text="@string/total_pizzas_string"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -74,7 +74,7 @@
 
         <Button
             android:id="@+id/calc_button"
-            android:text="Calculate"
+            android:text="@string/calculateButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
